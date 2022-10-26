@@ -1,5 +1,45 @@
+@charset "utf-8";
+
+header {
+  background-color: bisque;
+}
+
 h1 {
   font-size: 24px;
+  padding-top: 8px;
+  padding-bottom: 4px;
+  border-bottom: 2px solid #ddd;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+div {
+  text-align: center;
+  margin-top: 0;
+}
+
+.photo {
+  width: 240px;
+  height: auto;
+}
+
+footer {
+  background-color: bisque;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* h1 {
+  font-size: 24px;
   padding-bottom: 8px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 2px solid #ddd;
+} */
+
+/* test */
+.abc {
+  color: red;
+  margin-bottom: 0;
 }
