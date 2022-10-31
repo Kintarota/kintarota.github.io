@@ -12,6 +12,8 @@
     <h1>きんたろうた（ペンネーム）</h1>
     <p>UI/UXデザイナー見習いです。<br>ドットインストールで勉強中です。</p>
     <p>以下、練習で表示させて頂きます。</p>
+    <img src="img/ファイトの絵1.png" alt="ファイト前の人図" id="trigger" width="120" height="100" class="mark">
+    <div class="note1">↑絵をクリックして下さい</div>
   </header>
 
   <main>
@@ -73,6 +75,19 @@
   <footer>
     <a class="sengen">引き続き頑張ります！</a>
   </footer>
+
+  <script>
+    'use strict';
+    
+    function process() {
+      // document.getElementById('target').textContent = 'すっごく真面目です！';
+      // document.getElementById('trigger').classList.add('changed');
+      document.getElementById('trigger').src = 'img/ファイトの絵2.png';
+    }
+    
+    document.getElementById('trigger').addEventListener('click', process);
+
+  </script>
 
 </body>
 </html>
