@@ -6,6 +6,22 @@ body {
 
 header {
   background-color: bisque;
+  text-align: center;
+}
+
+.mark {
+  cursor: pointer;
+  transition: border-radius 1s;
+}
+
+.mark:hover {
+  opacity: 0.8;
+}
+
+.note1 {
+  font-size: 10px;
+  font-weight: bold;
+  padding-bottom: 10px;
 }
 
 h1 {
@@ -31,7 +47,7 @@ div {
 }
 
 .note {
-  font-size: 6px;
+  font-size: 10px;
 }
 
 footer {
