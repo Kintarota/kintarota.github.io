@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+body {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
 header {
   background-color: bisque;
 }
@@ -26,10 +30,20 @@ div {
   height: auto;
 }
 
+.note {
+  font-size: 6px;
+}
+
 footer {
   background-color: bisque;
   text-align: center;
   font-weight: bold;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.sengen {
+  font-size: large;
 }
 
 /* h1 {
